@@ -9,7 +9,6 @@ function Header() {
   return (
     <header>
       <Navbar bg="light" expand="lg">
-        {/* Replace the Navbar.Brand component with an img element */}
         <LinkContainer to="/">
           <Navbar.Brand>
             <img src={logo} alt="Burbank Deli Market" width="120" height="auto" />
@@ -28,7 +27,7 @@ function Header() {
               <Nav.Link>Promotions</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contact">
-              <Nav.Link>Contact</Nav.Link>
+              <Nav.Link>Contact us</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
