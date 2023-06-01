@@ -2,11 +2,11 @@
   "name": "burbank-deli-market",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mynamebrogrammer.github.io/burbank-deli-market",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
