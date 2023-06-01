@@ -27,7 +27,7 @@ function Header() {
               <Nav.Link>Promotions</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contact">
-              <Nav.Link>Contact us</Nav.Link>
+              <Nav.Link>About Us</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
