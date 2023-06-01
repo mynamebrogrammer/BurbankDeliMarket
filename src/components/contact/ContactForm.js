@@ -1,9 +1,19 @@
 import React, { useState } from 'react';
+import { Button, Form, Modal } from 'react-bootstrap';
 
 function ContactForm() {
+  const [showModal, setShowModal] = useState(false);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
+  const handleShowModal = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,24 +23,45 @@ function ContactForm() {
     setName('');
     setEmail('');
     setMessage('');
+    setShowModal(false);
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} required />
-      </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} required />
-      </div>
-      <button type="submit">Submit</button>
-    </form>
+    <>
+      <Button variant="primary" onClick={handleShowModal}>
+        Open Contact Form
+      </Button>
+
+      <Modal show={showModal} onHide={handleCloseModal}>
+        <Modal.Header closeButton>
+          <Modal.Title>Contact Us</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form onSubmit={handleSubmit}>
+            <Form.Group controlId="name">
+              <Form.Label>Name:</Form.Label>
+              <Form.Control type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+            </Form.Group>
+            <Form.Group controlId="email">
+              <Form.Label>Email:</Form.Label>
+              <Form.Control type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+            </Form.Group>
+            <Form.Group controlId="message">
+              <Form.Label>Message:</Form.Label>
+              <Form.Control as="textarea" rows={4} value={message} onChange={(e) => setMessage(e.target.value)} required />
+            </Form.Group>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={handleCloseModal}>
+                Close
+              </Button>
+              <Button variant="primary" type="submit">
+                Submit
+              </Button>
+            </Modal.Footer>
+          </Form>
+        </Modal.Body>
+      </Modal>
+    </>
   );
 }
 
