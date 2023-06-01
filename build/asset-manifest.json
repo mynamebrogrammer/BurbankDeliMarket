@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BurbankDeliMarket/static/css/main.dcd27cd3.css",
+    "main.js": "/BurbankDeliMarket/static/js/main.6d32de5e.js",
+    "static/js/787.71b74ce5.chunk.js": "/BurbankDeliMarket/static/js/787.71b74ce5.chunk.js",
+    "static/media/burbankdelilogo.png": "/BurbankDeliMarket/static/media/burbankdelilogo.e98a5bdff2cad73dd783.png",
+    "index.html": "/BurbankDeliMarket/index.html",
+    "main.dcd27cd3.css.map": "/BurbankDeliMarket/static/css/main.dcd27cd3.css.map",
+    "main.6d32de5e.js.map": "/BurbankDeliMarket/static/js/main.6d32de5e.js.map",
+    "787.71b74ce5.chunk.js.map": "/BurbankDeliMarket/static/js/787.71b74ce5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcd27cd3.css",
+    "static/js/main.6d32de5e.js"
+  ]
+}

@@ -2,7 +2,11 @@
   "name": "burbank-deli-market",
   "version": "0.1.0",
   "private": true,
+<<<<<<< Updated upstream
   "homepage": "https://mynamebrogrammer.github.io/burbank-deli-market",
+=======
+  "homepage": "https://mynamebrogrammer.github.io/BurbankDeliMarket/",
+>>>>>>> Stashed changes
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
