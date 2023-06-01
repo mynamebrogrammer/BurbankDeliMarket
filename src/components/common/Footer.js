@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} Burbank Deli Market. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Burbank Deli & Market. All rights reserved.</p>
     </footer>
   );
 }
