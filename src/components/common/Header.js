@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 // logo image file in project
-import logo from '../../../src/logo192.png';
+import logo from '../../burbankdelilogo.png';
 
 function Header() {
   return (
