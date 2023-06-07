@@ -1,0 +1,31 @@
+.wine-discovery-guide {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wine-discovery-guide h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.wine-discovery-guide h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.wine-discovery-guide p {
+  margin-bottom: 16px;
+}
+
+.wine-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 20px;
+}
+
+.wine-cards{
+  width: 100%;
+}

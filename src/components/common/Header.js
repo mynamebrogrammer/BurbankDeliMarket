@@ -24,7 +24,7 @@ function Header() {
               <Nav.Link>Menu</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/promotions">
-              <Nav.Link>Promotions</Nav.Link>
+              <Nav.Link>Wines</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contact">
               <Nav.Link>About Us</Nav.Link>
