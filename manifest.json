@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "burbankdelilogo192.png",
+      "src": "burbankdelilogo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "burbankdelilogo512.png",
+      "src": "burbankdelilogo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
