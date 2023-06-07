@@ -17,7 +17,7 @@ To install the application, clone the repository and run `npm install` to instal
 
 ## Usage
 
-To run the application, run `npm start` in the command line. The application will open in your browser at `http://localhost:3000`.
+To run the application, run `npm run start` in the command line. The application will open in your browser at `http://localhost:3000`.
 
 ## Credits
 
