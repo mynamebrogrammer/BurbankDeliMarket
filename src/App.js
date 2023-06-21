@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import MenuPage from "./pages/MenuPage";
 import PromotionsPage from "./pages/PromotionsPage";
 import ContactPage from "./pages/ContactPage";
+import BeerPage from "./pages/BeerPage";
 import "./App.css";
 import { ThemeProvider } from "./utils/ThemeContext";
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/menu" element={<MenuPage />} />
+            <Route path="/beer" element={<BeerPage />} />
             <Route path="/promotions" element={<PromotionsPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>

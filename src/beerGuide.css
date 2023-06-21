@@ -1,0 +1,18 @@
+.beer-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;   
+}
+
+.beer-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 20px;
+    width: 100%;
+
+}
+

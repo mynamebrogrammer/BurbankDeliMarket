@@ -26,6 +26,9 @@ function Header() {
             <LinkContainer to="/promotions">
               <Nav.Link>Wines</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/beer">
+              <Nav.Link>Beer</Nav.Link>
+            </LinkContainer>
             <LinkContainer to="/contact">
               <Nav.Link>About Us</Nav.Link>
             </LinkContainer>
