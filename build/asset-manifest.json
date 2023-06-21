@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4bccc7e.css",
+    "main.js": "/static/js/main.ce8d31cc.js",
+    "static/js/787.71b74ce5.chunk.js": "/static/js/787.71b74ce5.chunk.js",
+    "static/media/burbankdelilogo.png": "/static/media/burbankdelilogo.e98a5bdff2cad73dd783.png",
+    "index.html": "/index.html",
+    "main.c4bccc7e.css.map": "/static/css/main.c4bccc7e.css.map",
+    "main.ce8d31cc.js.map": "/static/js/main.ce8d31cc.js.map",
+    "787.71b74ce5.chunk.js.map": "/static/js/787.71b74ce5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4bccc7e.css",
+    "static/js/main.ce8d31cc.js"
+  ]
+}
