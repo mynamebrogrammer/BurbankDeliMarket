@@ -5,7 +5,7 @@ function MenuPage() {
   return (
     <div>
       <h2>Menu</h2>
-      <p>We are currently in the process of building a mouth-watering menu...Comming soon!</p>
+      <p>We are currently in the process of building a mouth-watering menu...Coming soon!</p>
       <img src={comingSoon} alt="Coming Soon" />
       
       {/* Add more Sandwich components or other menu items */}
