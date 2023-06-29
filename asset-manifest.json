@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.223a80e4.css",
-    "main.js": "/static/js/main.8bcc08cd.js",
+    "main.css": "/static/css/main.f4963dc4.css",
+    "main.js": "/static/js/main.673d6036.js",
     "static/js/787.71b74ce5.chunk.js": "/static/js/787.71b74ce5.chunk.js",
     "static/media/burbankdelilogo.png": "/static/media/burbankdelilogo.e98a5bdff2cad73dd783.png",
     "index.html": "/index.html",
-    "main.223a80e4.css.map": "/static/css/main.223a80e4.css.map",
-    "main.8bcc08cd.js.map": "/static/js/main.8bcc08cd.js.map",
+    "main.f4963dc4.css.map": "/static/css/main.f4963dc4.css.map",
+    "main.673d6036.js.map": "/static/js/main.673d6036.js.map",
     "787.71b74ce5.chunk.js.map": "/static/js/787.71b74ce5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.223a80e4.css",
-    "static/js/main.8bcc08cd.js"
+    "static/css/main.f4963dc4.css",
+    "static/js/main.673d6036.js"
   ]
 }
