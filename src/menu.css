@@ -1,0 +1,49 @@
+/* menu.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 40px;
+  }
+  
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .menu-item {
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-item h3 {
+    margin-top: 18px;
+    font-size: 1.65em;
+  }
+  
