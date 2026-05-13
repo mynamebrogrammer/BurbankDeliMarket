@@ -36,3 +36,6 @@ This project is licensed under the MIT license.
 ## Questions
 
 If you have any questions, please contact me at <habibmaksoud@gmail.com>
+
+### NOTICE
+The Website is currently down for maintenance
